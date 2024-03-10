@@ -1,0 +1,23 @@
+model_name:model_004
+duration:160
+
+Initial_learning_rate:0.001
+Decay_steps:3000
+Decay_rate:0.5
+
+Actor_fc_layer:(128, 128)
+Value_fc_layer:(128, 128)
+discount_factor:0.96
+Destiantion_Reward:100
+Clip_Ratio:0.2
+Lambda_Val:0.95
+replay_buffer_max_length:8000
+
+Entropy_Reg:0.01
+Epochs:10
+episodes_per_iterations:50
+num_iterations:100
+random_seed:43738
+
+PPO_policy_store_frequency:5
+PPO_loss_avg_interval:1
